@@ -1,0 +1,37 @@
+// variable styles imports
+@import  "../../styles/variables.scss";
+
+.SearchButtonWrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-grey-1;
+    border-radius: 8px;
+    padding: 12px 26px 12px 8px;
+    gap: 8px;
+    img {
+        max-width: 24px;
+        height: auto;
+    }
+    button {
+        border: none;
+        background: $color-grey-1;
+        outline: none;
+        height: 24px;
+        cursor: pointer;
+    }
+    input {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: $color-white-0;
+        background: $color-grey-1;
+        border: none;
+        outline: none;
+        min-width: 198px;
+        &::placeholder {
+            color: $color-white-3;
+        }
+    }
+}

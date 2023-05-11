@@ -1,0 +1,30 @@
+@import  "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: $color-black-0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.FullContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}

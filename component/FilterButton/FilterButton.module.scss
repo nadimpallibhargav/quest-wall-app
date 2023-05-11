@@ -1,0 +1,35 @@
+// variable styles imports
+@import '../../styles/variables.scss';
+
+.FilterBtn {
+    min-width: 73px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid rgba(111, 118, 126, 0.4);
+    border-radius: 12px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: $color-white-1;
+    padding: 10px 16px;   
+    b {
+        font-weight: 700;
+    }
+}
+.BtnIconWrapper {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BtnSelected {
+    background: $color-green-1;
+    border: 1px solid rgba(111, 118, 126, 0.4);
+}
+.BtnActive {
+    border: 1px solid $color-green-2;
+}

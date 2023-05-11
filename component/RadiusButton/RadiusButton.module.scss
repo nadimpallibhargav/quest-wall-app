@@ -1,0 +1,14 @@
+// variable styles imports
+@import '../../styles/variables.scss';
+
+.RadiusButton {
+    border: 1.5px solid #6366F1;
+    border-radius: 99px;
+    padding: 10px 23.5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: $color-white-0;
+    background: transparent;
+}
