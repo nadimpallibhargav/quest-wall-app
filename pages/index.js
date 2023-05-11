@@ -18,6 +18,7 @@ import styles from '@/styles/Home.module.scss'
 import filterBtnStyles from '../component/FilterButton/FilterButton.module.scss'
 
 export default function Home() {
+
   return (
     <section className={styles.QuestsSection}>
       <div className='container'>
@@ -39,12 +40,14 @@ export default function Home() {
       </div>
       <div className='FullContainer'>
         <div className={styles.QuestsWrapper}>
+          <Card isQuestNew={true} />
           <Card />
+          <Card isQuestDone={true} />
+          <Card isQuestNew={true} />
           <Card />
+          <Card isQuestDone={true} />
           <Card />
-          <Card />
-          <Card />
-          <Card />
+          <CardEmpty />
           <CardEmpty />
         </div>
         <div className={styles.ViewMore}>

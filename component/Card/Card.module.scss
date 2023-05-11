@@ -29,7 +29,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    span {
+    .TimeInfo {
         font-weight: 500;
         font-size: 12px;
         line-height: 16px;
@@ -38,8 +38,19 @@
         padding-left: 2px;
     }    
 }
-.TimerIcon {
-    height: 15px;
+.CardDone {
+    .Timer {
+        .TimeInfo {
+            color: $color-white-3;
+        }    
+    }   
+}
+.CardNew {
+    .Timer {
+        .TimeInfo {
+            color: $color-green-0;
+        }    
+    }   
 }
 .NewQuestIcon {
     display: inline-block;
@@ -121,4 +132,14 @@
             margin-left: -12px;
         }
     }
+}
+.QuestDone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: $color-green-0;
+    border: 1px solid $color-green-3;
+    border-radius: 8px;
+    padding: 1px 6px 2px;
 }
