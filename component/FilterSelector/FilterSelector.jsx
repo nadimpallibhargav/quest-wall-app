@@ -30,7 +30,7 @@ const FilterSelector = ({ onChangeFilter,selectedMenuBtn }) => {
         className={selectedMenuBtn === 5 ? filterBtnStyles.BtnSelected : ""}
         onFilterBtnClick={() => setdropdownOpen(!dropdownOpen)}
       >
-        More{" "}
+        More
         <span className={filterBtnStyles.BtnIconWrapper}>
           <Image alt="image" src={downarrow} />
         </span>

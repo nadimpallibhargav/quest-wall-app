@@ -18,6 +18,9 @@
     b {
         font-weight: 700;
     }
+    &:hover {
+        border: 1px solid $color-green-2;    
+    }
 }
 .BtnIconWrapper {
     width: 24px;
